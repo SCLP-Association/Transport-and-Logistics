@@ -1,0 +1,164 @@
+:root {
+  --white: #FFFFFF;
+  --light-brown: rgba(232, 232, 232, 0.5);
+  --dark-text: #1C1F35;
+  --light-text: #666C89;
+  --yellow: #FFB629;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+}
+
+body {
+  font-family: krub-regular,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+@font-face {
+  font-family: krub-regular;
+  src: url('./fonts/Krub/Krub-Regular.ttf');
+}
+
+@font-face {
+  font-family: krub-medium;
+  src: url('./fonts/Krub/Krub-Medium.ttf');
+}
+
+@font-face {
+  font-family: rubik-bold;
+  src: url('./fonts/Rubik/static/Rubik-Bold.ttf');
+}
+
+@font-face {
+  font-family: rubik-semibold;
+  src: url('./fonts/Rubik/static/Rubik-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: rubik-regular;
+  src: url('./fonts/Rubik/static/Rubik-Regular.ttf');
+}
+
+@font-face {
+  font-family: rubik-medium;
+  src: url('./fonts/Rubik/static/Rubik-Medium.ttf');
+}
+
+@font-face {
+  font-family: league-regular;
+  src: url('./fonts/League_Spartan/static/LeagueSpartan-Regular.ttf');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.db {
+  display: block;
+}
+
+.df {
+  display: flex;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.ai {
+  align-items: center;
+}
+
+.mb22 {
+  margin-bottom: 22px;
+}
+
+
+.text_hub {
+  font-family: rubik-bold, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 41px;
+  color: var(--dark-text);
+  margin-bottom: 12px;
+}
+
+
+.text_log {
+  width: max-content;
+  background: var(--light-brown);
+  font-size: 14px;
+  padding: 3px 9px;
+  font-family: rubik-regular, serif;
+  font-weight: 400;
+  position: relative;
+  color: var(--dark-text);
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.text_log::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 23px;
+  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+}
+
+.text-kit {
+  font-family: rubik-semibold;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+}
+
+.text-skit {
+  font-family: krub-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 151.52%;
+  margin-left: 9px;
+}
+
+.text-sub-kit {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+
+.text-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.white {
+  color: var(--white)
+}
+
+
+.mt32 {
+  margin-top: 32px;
+}
+
+.flex-1 {
+  flex: 1;
+}
