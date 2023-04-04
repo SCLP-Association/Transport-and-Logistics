@@ -24,4 +24,4 @@ To install the dependencies, run npm install. Once the dependencies are installe
 ## Challenges Faced
 Throughout the development process, I faced certain challenges related to the website's design. One of the issues was that the initial width of the design provided in the Figma link was too large, making it challenging to adjust the white space to fit my screen appropriately. Additionally, styling the components using CSS posed another challenge, as I needed to ensure that my styles did not conflict with existing styles from other components or elements. It required careful attention to avoid unintended conflicts and maintain consistency in the overall design.
 
-View [Live Demo](https://google.com)
+View [Live Demo](https://transport-and-logistics-fqur5c85d-duruobinnafranklin-gmailcom.vercel.app/)
